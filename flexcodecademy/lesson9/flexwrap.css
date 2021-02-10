@@ -1,0 +1,58 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+/*  4.
+      Add a justify-content value of space-around to the .container rule in style.css. Stretch and shrink the browser. What’s different this time?*/
+/* flex-start
+     flex-end
+    center
+    space-between
+    space-around
+     space-evenly */
+.container {
+  background-color: dodgerblue;
+  display: flex;
+  align-items: center;
+  min-height: 150px;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: whitesmoke;
+  border: 3px solid green;
+  width: 150px;
+  height: 100px;
+}
+
+/* exercise follow along
+      
+      /* 1.
+      Add a flex-wrap property with the value of wrap to the div with the id #wrap. Shrink and stretch the browser.*/
+
+#wrap {
+  flex-wrap: wrap;
+}
+
+/* 2.
+      Add a flex-wrap property with the value of nowrap to the div with the id #nowrap. Shrink and stretch the browser. */
+
+#nowrap {
+  flex-wrap: nowrap;
+}
+
+/* 3.
+      Add a flex-wrap property with the value of wrap-reverse to the div with the id #reverse. Shrink and stretch the browser. */
+
+#reverse {
+  flex-wrap: wrap-reverse;
+}

@@ -1,0 +1,54 @@
+/* flex-flow
+Like the flex property, the flex-flow property is used to declare both the flex-wrap and flex-direction properties in one line. */
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 14px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+.container {
+  background-color: dodgerblue;
+  display: flex;
+  height: 600px;
+  align-items: center;
+}
+
+.box {
+  background-color: whitesmoke;
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+/* #row {
+
+} */
+/* 1.
+In the #row-reverse selector, set the flex-flow property to have a direction of row-reverse and to wrap elements. You should be able to accomplish this in one line. */
+
+/* flex direction and flex wrap in a line */
+
+#row-reverse {
+  flex-flow: row-reverse wrap;
+}
+
+#column {
+  flex-flow: column wrap;
+}
+
+/* #column-reverse {
+    
+    }
+     */

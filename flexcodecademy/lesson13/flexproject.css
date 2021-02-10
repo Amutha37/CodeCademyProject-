@@ -1,0 +1,154 @@
+/* 1.
+All of the images are inside of three column divs and the three column divs are all inside of one large div called .cards.
+
+Set the display property of .cards to flex.
+
+Checkpoint 2 Passed
+2.
+Now set the flex-wrap property of .cards to wrap.
+
+Checkpoint 3 Passed
+3.
+Set the justify-content property of .cards to space-around.
+
+Checkpoint 4 Passed
+4.
+Set the display property of .col to inline-flex.
+
+Checkpoint 5 Passed
+5.
+Set the flex-direction property of .col to column.
+
+Checkpoint 6 Passed
+6.
+Assign .col a justify-content value of space-between. */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+img {
+  margin: 10px auto;
+  height: auto;
+  width: auto;
+}
+
+ul {
+  text-align: right;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/*Sizing*/
+
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main {
+  /* background-color: #ffc200; */
+  background-color: #e1c619;
+  /* display: inline-flex; */
+}
+
+/*Header Section*/
+
+.header {
+  padding: 30px 0px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  color: #333;
+  margin: 0;
+  border: 0px;
+}
+
+/*Jumbotron Section*/
+
+.jumbotron {
+  background-color: #fff;
+  max-width: 1200px;
+  margin-left: 50px;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.jumbotron h2 span {
+  color: #ffc200;
+}
+
+.jumbotron p {
+  text-shadow: 0 0;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/*Banner Section*/
+.banner {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Expertise Section*/
+.cards {
+  /* background-color: #ffc200; */
+  background-color: rgba(8, 70, 52, 0.243);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#expertise {
+  padding: 20px;
+  /* background-color: #ffc200; */
+  background-color: #e1c619;
+  margin: 0;
+  text-align: center;
+}
+
+/*Footer Section*/
+.footer {
+  padding: 60px 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}

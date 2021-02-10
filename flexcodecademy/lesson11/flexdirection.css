@@ -1,0 +1,79 @@
+/* flex containers have two axes: a main axis and a cross axis. By default, the main axis is horizontal and the cross axis is vertical.
+
+The main axis is used to position flex items with the following properties: */
+
+/* 1. justify-content
+2. flex-wrap
+3. flex-grow
+4. flex-shrink
+The cross axis is used to position flex items with the following properties:
+
+1. align-items
+2. align-content
+The main axis and cross axis are interchangeable. We can switch them using the flex-direction property. If we add the flex-direction property and give it a value of column, the flex items will be ordered vertically, not horizontally. */
+
+body {
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+/*
+  5.
+  Change the height property of .container elements to be max-height. Remember to stretch and shrink the browser after each checkpoint so you can see the effects.
+  6.
+  Set the align-items value of the .container div to center.
+  7.
+  Set the justify-content value of the .container div to space-around. */
+.container {
+  background-color: dodgerblue;
+  display: flex;
+  max-height: 600px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*  8.
+  Set the flex-grow property of .box divs to 1. In which direction do the elements grow? */
+
+.box {
+  background-color: whitesmoke;
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  flex-grow: 1;
+}
+
+/*  1.
+  Give the div with id #row a flex-direction of row.*/
+
+#row {
+  flex-direction: row;
+}
+
+#row-reverse {
+  flex-direction: row-reverse;
+}
+
+#column {
+  flex-direction: column;
+}
+
+/*  4.
+  Give the div with id #column-reverse a flex-direction of column-reverse. */
+
+#column-reverse {
+  flex-direction: column-reverse;
+}

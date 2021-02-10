@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container {
+  height: 300px;
+  width: 600px;
+  background-color: WhiteSmoke;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+/* 6.
+  Change the height declaration in the .left, .center, .right CSS rule to say min-height instead. What happens to the flex items in the #stretch container? */
+
+.left,
+.center,
+.right {
+  min-height: 75px;
+  width: 200px;
+  margin: 2px;
+  background-color: DodgerBlue;
+  border: 2px solid lightgrey;
+}
+
+#flexstart {
+  align-content: flex-start;
+}
+
+#flexend {
+  align-content: flex-end;
+}
+
+#center {
+  align-content: center;
+}
+
+/*4.
+  Set the align-content property of #between to space-between. */
+
+#between {
+  align-content: space-between;
+}
+
+/* 5.
+  Set the align-content property of #around to space-around.*/
+
+#around {
+  align-content: space-around;
+}

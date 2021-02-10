@@ -1,0 +1,43 @@
+#p1 {
+  box-sizing: content-box;
+  width: 80%;
+  border: 2px solid #5b6dcd;
+}
+#p2 {
+  box-sizing: content-box;
+  width: 50%;
+  border: 2px solid blue;
+  padding: 5px;
+}
+.div1 {
+  margin-top: 1rem;
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+.div3 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid rgb(15, 161, 73);
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.div4 {
+  width: 300px;
+  /* height: 100%; */
+  padding: 50px;
+  border: 1px solid rgb(235, 22, 139);
+  box-sizing: border-box;
+  margin: 0 auto;
+  /* using the below works px and need overflow scroll */
+  height: 100px;
+  overflow: scroll;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Musicon</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="handlebars.min.js"></script>
+    <!-- below is step to  change the template so main.js handles the template html  -->
+    <!-- Now it’s time to replace some hard coded values with Handlebars expressions. Change the value of the src and alt attribute within the <img> tag with a {{this.image}} and {{this.name}} expression respectively. -->
+
+    <!-- Replace the contents inside the .name, .description, .price and .sale elements with Handlebar expressions. Use the following expressions in their respective fields: {{this.name}}, {{this.description}}, {{this.price}} and {{this.sale}}. -->
+
+    <!-- You might notice some instruments are on sale and others are not. You can account for this using a built-in Handlebars block helper, {{if}}, which acts like the if conditional in JavaScript.
+
+Use the {{if}} block helper to display the on-sale price. If the this.sale property is truthy, you should also display the <p> elements that have the classes price, sale and deal. Add an {{else}} section, in case this.sale is falsy, to display the this.price element (without the nested <del> tag). -->
+
+    <!-- Now, locate the #showcase element. In the <section> that has a class of container, add an id of information. Since you don’t need the hard coded values anymore, delete the all the elements that have a class of instrument.
+
+The #information <section> should be empty but the web page should still be filled with instruments! -->
+
+    <!-- Great, you refactored your code to use Handlebars. Take advantage of your set up template to add a new instrument to Musicon!
+
+Add another object in the instruments array that has the following properties:
+
+Set the image property to be 'https://content.codecademy.com/courses/learn-handlebars/musicon/violin.png'.
+Set the name property to be 'Violin'.
+Set the description property to be 'A versatile that is suited for any and all occasions. Those wearing tuxedos can strum together a classic. Others who prefer overalls can call it a fiddle and play some folk songs.'.
+Set the price property to be '$245.00'.
+After creating the object successfully, save your progress. You will see the violin added to the store page. -->
+    <!-- for more challenge  -->
+
+    <!-- Great work! The home and store pages look leagues better than when you started. 
+      
+      If you want to challenge yourself, consider:
+
+Add/Remove instruments to the store.
+Change the overall layout of the website.
+Create additional styling in public/style.css.
+Add and link to an additional page for Musicon. -->
+
+    <script id="templateHB" type="text/x-handlebars-template">
+          {{#each instruments}}
+          <article class="instrument">
+            <img
+              class="image"
+
+              src="{{this.image}}" alt="{{this.name}}"
+            />
+            <section class="details">
+              <h2 class="name">{{this.name}}</h2>
+              <p class="description">
+                {{this.description}}
+              </p>
+      {{#if sale}}
+              <p class="price"><del>Price: {{this.price}}</del></p>
+
+              <p class="sale">On Sale! {{this.deal}}</p>
+              {{else }}
+              <p class="price"><del>Price: {{this.price}}</p>
+              {{/if}}
+            </section>
+          </article>
+          {{/each}}
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <section class="container">
+        <h1 class="branding">Musicon</h1>
+
+        <nav>
+          <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="store.html">Store</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <article id="showcase">
+      <section id="information" class="container">
+        <!-- <article class="instrument">
+          <img
+            class="image"
+            src="https://content.codecademy.com/courses/learn-handlebars/musicon/electronic-keyboard.png"
+            alt="Electronic Keyboard"
+          />
+          <section class="details">
+            <h2 class="name">Electronic Keyboard</h2>
+            <p class="description">
+              A piano welcomed to the 21th century. Pianists celebrate the
+              compact form factor and the diversity of synthesized rhythms all
+              in one masterful musical machine.
+            </p>
+            <p class="price"><del>Price: $1,999.00</del></p>
+            <p class="sale">On Sale! $1,699.89</p>
+          </section>
+        </article> -->
+
+        <!-- <article class="instrument">
+          <img
+            class="image"
+            src="https://content.codecademy.com/courses/learn-handlebars/musicon/electric-guitar.png"
+            alt="Electric Guitar"
+          />
+          <section class="details">
+            <h2 class="name">Electric Guitar</h2>
+            <p class="description">
+              Join the legends of the '50s and '60s when the marriage of guitar
+              and electricity created the most influential instrument of a
+              generation. Note: picks sold separately.
+            </p>
+            <p class="price">Price: $599.99</p>
+          </section>
+        </article> -->
+
+        <!-- <article class="instrument">
+          <img
+            class="image"
+            src="https://content.codecademy.com/courses/learn-handlebars/musicon/bass-guitar.png"
+            alt="Bass Guitar"
+          />
+          <section class="details">
+            <h2 class="name">Bass Guitar</h2>
+            <p class="description">
+              Experience the embodiment of funkadelic frequencies that is the
+              bass guitar. Let the deep low notes of the bass guitar resonate
+              with heartbeats everywhere.
+            </p>
+            <p class="price">Price: $624.99</p>
+          </section>
+        </article> -->
+
+        <!-- <article class="instrument">
+          <img
+            class="image"
+            src="https://content.codecademy.com/courses/learn-handlebars/musicon/drum-kit.png"
+            alt="Drum Kit"
+          />
+          <section class="details">
+            <h2 class="name">Drum Kit</h2>
+            <p class="description">
+              Ever thought, "one instrument isn\'t enough?" Find an answer in
+              the Drum Kit. Coordinate a collections of drums and cymbals to
+              dictate the rhythm of musical masterpiece.
+            </p>
+            <p class="price"><del>Price: $649.00</del></p>
+            <p class="sale">On Sale!</p>
+            <p class="deal">With Deal: $349.00</p>
+          </section>
+        </article> -->
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; Musicon 2018</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

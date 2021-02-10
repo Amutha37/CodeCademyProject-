@@ -1,0 +1,132 @@
+body {
+  background-color: #293e33;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 5px;
+}
+/* frame table  */
+h1,
+h2,
+h3,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* styling the content */
+h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: white;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
+}
+
+th {
+  border: 2px solid #8c6b48;
+}
+
+table {
+  text-align: center;
+  margin: 20px auto;
+}
+
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  background-color: #242f44;
+  z-index: 5;
+}
+footer h3 {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #242f44;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+.left {
+  width: 150px;
+}
+
+/* .left {
+  display: inline;
+  position: relative;
+} */
+
+.left:hover:after {
+  background: #333;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  bottom: 26px;
+  color: #fff;
+  content: attr(title);
+  left: 20%;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 240px;
+}
+
+.left:hover:before {
+  border: solid;
+  border-color: #333 transparent;
+  border-width: 6px 6px 0 6px;
+  bottom: 20px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  z-index: 99;
+}
+
+/* table {
+  position: fixed;
+   top: 45%;
+    left: 44%;
+     align-items:  center;
+      background-color: rgb(85, 85, 85);
+      opacity: 0.8; 
+      width: 80px; 
+      height: 80px; border-radius: 40px; border-width: 2px; border-style: solid; border-color: rgb(238, 238, 238); box-shadow: rgb(17, 17, 17) 0px 0px 20px; z-index: 100000; display: none;} */
+/* <img src="page-loader.gif" style="height:48px; margin:14px; "> */

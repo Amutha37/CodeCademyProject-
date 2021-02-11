@@ -2,13 +2,24 @@
 
 6 COMPLETED COURSES
 
-Learn JavaScript            Building Interactive JavaScript Websites        Learn Responsive Design
- Completed                  Completed                                       Completed
+Learn JavaScript       
+   Completed     
+   
+Building Interactive JavaScript Websites      
+   Completed     
+
+Learn Responsive Design
+ Completed                                            
 
 
-
-Learn HTML                  Learn How to Code                               Welcome To Codecademy
-Completed                   Completed                                       Completed
+Learn HTML               
+ Completed  
+ 
+Learn How to Code                          
+ Completed    
+ 
+Welcome To Codecademy
+Completed                                                
 
 
 

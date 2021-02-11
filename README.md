@@ -2,27 +2,21 @@
 
 6 COMPLETED COURSES
 
-Learn JavaScript
-Completed
-
-Building Interactive JavaScript Websites
-Completed
-
-Learn Responsive Design
-Completed
-
-Learn HTML
-Completed
-
-Learn How to Code
-Completed
-
-Welcome To Codecademy
-Completed
-
-These are the project I have completed during my training and learning from Web Development Path on CodeCademy.
+Learn JavaScript            Building Interactive JavaScript Websites        Learn Responsive Design
+ Completed                  Completed                                       Completed
 
 
+
+Learn HTML                  Learn How to Code                               Welcome To Codecademy
+Completed                   Completed                                       Completed
+
+
+
+_________________________________________________________________________		
+
+These are the projects I have completed during my training and learning from Web Development Path on CodeCademy.
+
+--------------------------------------------------------------------------
 
 Get started as a web developer by learning the basics of HTML, the essential language of the web.
 
@@ -34,13 +28,14 @@ Authorization Form
 Random Color Picker
 Video Player
 
+________________________________________________________________________
 Learn and practice the fundamentals of CSS to add beautiful styling to your webpages.
 
 Healthy Recipes
 Olivia Woodruff Portfolio
 Dasmoto's Arts & Crafts
 
-
+_________________________________________________________________________
 Getting Started with JavaScript
 Learn the fundamentals of JavaScript: syntax, variables, conditionals, and functions.
 
@@ -51,7 +46,7 @@ Race Day
 Rock, Paper, or Scissors
 Sleep Debt Calculator
 
-
+_________________________________________________________________________
 Getting More Advanced with Design
 Learn CSS techniques for more interesting sites: display & positioning, colors, typography, responsive design, and flexbox.
 
@@ -63,7 +58,7 @@ Tsunami Coffee
 Flexbox: To-Do App
 Tea Cozy
 
-
+_________________________________________________________________________
 
 JavaScript: Arrays, Loops, and Objects
 Discover more JavaScript techniques and features including arrays, looping, and objects.
@@ -76,17 +71,36 @@ Meal Maker
 Team Stats
 Lodash
 
-Building Interactive JavaScript Websites
-Completed Document Object Model, the interface between JavaScript and HTML elements, and combine HTML, CSS, and JavaScript into exciting interactive sites!
-
-Chore Door
-Piano Keys
-Musicon
-
-Learn the basics of a JavaScript library that allows you to easily add dynamic behavior to static web pages.
 
 
-Intermediate JavaScript
+
+
+Learn the Document Object Model, the interface between JavaScript and HTML elements, and combine HTML, CSS, and JavaScript into exciting interactive sites!
+ 
+JavaScript Interactive Websites
+
+Learn how to bring JavaScript and HTML together with the script tag and the DOM model.
+LessonThe Script Element
+VideoCreate Your First JavaScript Website
+LessonThe Document Object Model
+LessonJavascript and the DOM
+ProjectChore Door
+ 
+ 
+ 
+DOM Events with JavaScript
+Learn to create webpage interactivity by leveraging JavaScript events in the browser.
+ 
+LessonDOM Events with JavaScript
+QuizDOM Events
+ProjectPiano Keys
+ 
+ 
+Templating With Handlebars
+Learn to create semantic templates using a popular and lightweight templating engine, Handlebars!
+LessonLearn Handlebars
+ProjectMusicon
+___________________________________________________________________________
 Learn more techniques to extend your JavaScript knowledge including reusable classes, splitting code into modules, and making HTTP requests.
 
 Build a Library

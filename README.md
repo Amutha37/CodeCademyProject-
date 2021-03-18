@@ -1,6 +1,6 @@
 # CodeCademyProject-
 
-6 COMPLETED COURSES
+ COMPLETED
 
 Learn JavaScript       
    Completed     

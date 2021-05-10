@@ -25,7 +25,7 @@ Completed
 
 _________________________________________________________________________		
 
-These are the projects I have completed during my training and learning from Web Development Path on CodeCademy.
+These are completed projects from Web Development Path on CodeCademy.
 
 --------------------------------------------------------------------------
 
